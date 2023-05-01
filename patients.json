@@ -1,0 +1,43 @@
+[
+    {
+      "name": "John Smith",
+      "age": 45,
+      "gender": "Male",
+      "height": "5'10\"",
+      "weight": "185 lbs",
+      "blood_pressure": "120/80 mmHg",
+      "heart_rate": 70,
+      "medical_history": "Hypertension, High Cholesterol, Family history of Heart Disease",
+      "medications": "Lisinopril, Atorvastatin",
+      "allergies": "None",
+      "lab_results": {
+        "Total Cholesterol": "210 mg/dL",
+        "LDL Cholesterol": "140 mg/dL",
+        "HDL Cholesterol": "50 mg/dL",
+        "Triglycerides": "120 mg/dL",
+        "Fasting Blood Glucose": "90 mg/dL"
+      },
+      "notes": "Patient reports occasional chest pain and shortness of breath during exercise. Recommended stress test and echo cardiogram to evaluate cardiac function."
+    },
+    {
+      "name": "Jane Doe",
+      "age": 30,
+      "gender": "Male",
+      "height": "5'10\"",
+      "weight": "185 lbs",
+      "blood_pressure": "120/80 mmHg",
+      "heart_rate": 70,
+      "medical_history": "Hypertension, High Cholesterol, Family history of Heart Disease",
+      "medications": "Lisinopril, Atorvastatin",
+      "allergies": "None",
+      "lab_results": {
+        "Total Cholesterol": "210 mg/dL",
+        "LDL Cholesterol": "140 mg/dL",
+        "HDL Cholesterol": "50 mg/dL",
+        "Triglycerides": "120 mg/dL",
+        "Fasting Blood Glucose": "90 mg/dL"
+      },
+      "notes": "Patient reports occasional chest pain and shortness of breath during exercise. Recommended stress test and echo cardiogram to evaluate cardiac function."
+    }
+]
+  
