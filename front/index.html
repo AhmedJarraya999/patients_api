@@ -1,0 +1,30 @@
+<body>
+	<div id="patients-list"></div>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$.get("http://localhost:8000/patients", function(data) {
+				var patients = JSON.parse(data);
+				var patientList = $("#patients-list");
+				for (var i = 0; i < patients.length; i++) {
+					var patient = patients[i];
+					var patientDiv = $("<div>").addClass("patient");
+					patientDiv.append("<h2>" + patient.name + "</h2>");
+					patientDiv.append("<p>Age: " + patient.age + "</p>");
+					patientDiv.append("<p>Gender: " + patient.gender + "</p>");
+					patientDiv.append("<p>Height: " + patient.height + "</p>");
+					patientDiv.append("<p>Weight: " + patient.weight + "</p>");
+					patientDiv.append("<p>Blood Pressure: " + patient.blood_pressure + "</p>");
+					patientDiv.append("<p>Heart Rate: " + patient.heart_rate + "</p>");
+					patientDiv.append("<p>Medical History: " + patient.medical_history + "</p>");
+					patientDiv.append("<p>Medications: " + patient.medications + "</p>");
+					patientDiv.append("<p>Allergies: " + patient.allergies + "</p>");
+					patientDiv.append("<p>Notes: " + patient.notes + "</p>");
+					patientList.append(patientDiv);
+				}
+			});
+		});
+	</script>
+
+</body>
